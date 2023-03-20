@@ -5,10 +5,10 @@
 }
 
 :root {
-  scrollbar-color: #003f63 #0b171f;
-  scrollbar-width: thin;
+  /* scrollbar-color: #003f63 #0b171f;
+  scrollbar-width: thin; */
   --primary: rgb(0, 204, 255);
-  --dark: #0b171f;
+  --dark: #00111d;
   --mid: #317cad;
   --light: #65bcf7;
   --black: #000000;
@@ -23,24 +23,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0b171f;
+  background-color: var(--dark);
 
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-  color: #1a3547;
 }
 
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #0b171f;
 }
 
 body::-webkit-scrollbar {
-  width: 5px;
+  width: px;
   background-color: #0b171f;
 }
 

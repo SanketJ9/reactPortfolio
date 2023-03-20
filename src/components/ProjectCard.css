@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
+    background-color: #001f33;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
@@ -57,6 +58,7 @@
 .project-details {
     width: 400px;
     margin-left: 20px;
+    
 }
 
 .project-title {

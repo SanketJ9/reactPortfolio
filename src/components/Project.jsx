@@ -12,6 +12,7 @@ function Project() {
                 title={item.title}
                 desc={item.description}
                 tech={item.tech}
+                url={item.url}
             />
         )
     })

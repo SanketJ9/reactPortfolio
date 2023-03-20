@@ -34,7 +34,7 @@ function ProjectCard(props) {
         >
             <h2 className='project-card-heading'>{props.title}</h2>
             <div className='project-ss'>
-                <img className='project-ss-img' src={`./assets/${props.img}`} alt="ScreenShot" />
+                <a href={props.url}><img className='project-ss-img' src={`./assets/${props.img}`} alt="ScreenShot" /></a>
             </div>
             <div className="project-details">
                 <h2 className="project-title">{props.title}</h2>
